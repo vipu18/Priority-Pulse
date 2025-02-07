@@ -17,6 +17,17 @@ This is a simple **Django-based TODO app** that allows users to manage their tas
 - **Frontend**: HTML, CSS (with Poppins font), JavaScript
 - **Database**: SQLite (for development)
 
+## Approach (CRUD - Create, Read, Update, Delete)
+
+The application follows **CRUD operations** using Django:
+
+- **Create (`views.py` - `todo_create`)**: Users can add new tasks through a form.
+- **Read (`views.py` - `todo_list`)**: Retrieves and displays all tasks from the database.
+- **Update (`views.py` - `todo_update`)**: Allows editing task details.
+- **Delete (`views.py` - `todo_delete`)**: Removes tasks from the database.
+
+Additionally, Django **templates (`templates/`)** handle dynamic rendering, while **models (`models.py`)** define the database structure.
+
 ## Project Structure
 
 ```plaintext
