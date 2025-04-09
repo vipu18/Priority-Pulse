@@ -1,6 +1,6 @@
-# TODO App
+# Smart Task Management System
 
-This is a simple **Django-based TODO app** that allows users to manage their tasks efficiently. The application provides features to **add, update, mark as completed, and delete tasks**.
+This is a simple **Django-based Smart Task Management System** that allows users to manage their tasks efficiently. The application provides features to **add, update, mark as completed, and delete tasks**.
 
 ## Features
 
